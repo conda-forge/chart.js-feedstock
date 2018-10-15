@@ -1,6 +1,6 @@
 {% set name = "Chart.js" %}
-{% set version = "2.7.1" %}
-{% set sha256 = "e9e39d3124221cc7666f6ef2cb0d00e07f682929cc90abba36c1b76f27014f7c" %}
+{% set version = "2.7.3" %}
+{% set sha256 = "b011bbc9bff5cc53573001ba00373229a1a759c229481109959ee31cee55df7b" %}
 
 package:
   name: {{ name|lower }}
