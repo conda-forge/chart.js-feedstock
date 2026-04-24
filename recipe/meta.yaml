@@ -1,6 +1,6 @@
 {% set name = "Chart.js" %}
-{% set version = "2.9.3" %}
-{% set sha256 = "8079d8fd39131fcfaec33f1c7799412bcf8e051e25b10bd6e37fc16159417aa1" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "4b2376c53c52bc83ac78ce6f5861c914b3766241903278e9f95d2cb137635359" %}
 
 package:
   name: {{ name|lower }}
@@ -20,20 +20,20 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g chart.js
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/chartjs/Chart.js
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: 'Simple HTML5 Charts using the <canvas> tag'
+  summary: Simple HTML5 Charts using the <canvas> tag
   description: |
     Simple HTML5 Charts using the <canvas> tag  
   doc_url: http://www.chartjs.org/
